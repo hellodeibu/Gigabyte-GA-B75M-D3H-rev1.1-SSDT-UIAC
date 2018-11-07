@@ -30,5 +30,5 @@ Reboot and make sure all your USB ports work. You can test this simply by pluggi
 You might end up with a computer without any working USB ports. If that happens, reboot and when you get to the Clover boot, hit the spacebar having selected your usual boot option and add the `-uia_ignore_rmcf` boot argument. This will ignore all custom SSDT options, which should help you get to a booted machine with working USB ports, after which you can make whatever changes are necessary to fix the issue.
 
 # Screenshot
-![IORegistryExplorer](hellodeibu.github.com/Gigabyte-GA-B75M-D3H-rev1.1-SSDT-UIAC/blob/master/Screenshots/IORegistryExplorer.png)
+![IORegistryExplorer](https://github.com/hellodeibu/Gigabyte-GA-B75M-D3H-rev1.1-SSDT-UIAC/blob/master/Screenshots/IORegistryExplorer.png)
 
