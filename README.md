@@ -1,3 +1,6 @@
+
+**Note:** I realized after creating this file that it is actually incomplete. As my current PC case only had two extra USB2.0 ports in the front, I did not realize this motherboard actually does support two additional USB3 ports through an internal connector. If you have these connected in your PC, this file will be missing this connector. I apologize for this. If I ever replace the PC case with one that has additional USB3 ports, I might update this file, although [there seems to be a better way to do this now](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/) that does not require a custom SSDT file at all.
+
 # Gigabyte GA-B75M-D3H rev1.1 SSDT-UIAC
 Custom SSDT UIAC for the Gigabyte GA-B75M-D3H rev1.1 motherboard.
 
