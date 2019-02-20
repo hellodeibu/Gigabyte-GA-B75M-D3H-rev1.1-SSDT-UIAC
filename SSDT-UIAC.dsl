@@ -47,6 +47,12 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                 "port-count", Buffer() { 6, 0, 0, 0 },
                 "ports", Package()
                 {
+                    "HP21", Package() // USB2 internal (bluetooth)
+                    {
+                        //"UsbConnector", 0,
+                        "portType", 2,
+                        "port", Buffer() { 1, 0, 0, 0 },
+                    },
                     "HP23", Package() // USB2 back right bottom
                     {
                         //"UsbConnector", 0,
